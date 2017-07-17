@@ -19,4 +19,8 @@ namespace rc_deller
             Application.Run(new Form1());
         }
     }
+    public class add_deler
+    {
+        
+    }
 }
