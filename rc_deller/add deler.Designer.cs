@@ -43,9 +43,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(367, 372);
+            this.button1.Location = new System.Drawing.Point(489, 458);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(97, 38);
+            this.button1.Size = new System.Drawing.Size(129, 47);
             this.button1.TabIndex = 0;
             this.button1.Text = "sumit";
             this.button1.UseVisualStyleBackColor = true;
@@ -53,62 +54,68 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(315, 94);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox1.Location = new System.Drawing.Point(420, 116);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(221, 20);
+            this.textBox1.Size = new System.Drawing.Size(293, 22);
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "antal";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(315, 148);
+            this.textBox2.Location = new System.Drawing.Point(420, 182);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(221, 20);
+            this.textBox2.Size = new System.Drawing.Size(293, 22);
             this.textBox2.TabIndex = 2;
             this.textBox2.Text = "skof";
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(315, 187);
+            this.textBox3.Location = new System.Drawing.Point(420, 230);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(221, 20);
+            this.textBox3.Size = new System.Drawing.Size(293, 22);
             this.textBox3.TabIndex = 3;
             this.textBox3.Text = "rom";
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(315, 227);
+            this.textBox4.Location = new System.Drawing.Point(420, 279);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(221, 20);
+            this.textBox4.Size = new System.Drawing.Size(293, 22);
             this.textBox4.TabIndex = 4;
             this.textBox4.Text = "dele navn";
             this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(315, 268);
+            this.textBox5.Location = new System.Drawing.Point(420, 330);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(221, 20);
+            this.textBox5.Size = new System.Drawing.Size(293, 22);
             this.textBox5.TabIndex = 5;
             this.textBox5.Text = "produkt nomer";
             this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(682, 492);
+            this.progressBar1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.progressBar1.Location = new System.Drawing.Point(909, 501);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(162, 18);
+            this.progressBar1.Size = new System.Drawing.Size(216, 22);
             this.progressBar1.TabIndex = 6;
             // 
             // add_deler
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(856, 522);
+            this.ClientSize = new System.Drawing.Size(1141, 537);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
@@ -117,6 +124,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "add_deler";
             this.Text = "add_deler";
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
