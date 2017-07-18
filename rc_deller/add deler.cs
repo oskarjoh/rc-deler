@@ -60,8 +60,16 @@ namespace rc_deller
             }
         }
         public void progres_bar()
-        {
-
+            {
+            ProgressBar pBar1 = new ProgressBar();
+            // Display the ProgressBar control.
+            pBar1.Visible = true;
+            // Set Minimum to 1 to represent the first file being copied.
+            pBar1.Minimum = 1;
+            // Set Maximum to the total number of files to copy.
+            pBar1.Maximum = 100;
+            // Set the initial value of the ProgressBar.
+            pBar1.Value = 1;
         }
     }
 }
