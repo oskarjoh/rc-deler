@@ -60,6 +60,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sql.cs" />
     <EmbeddedResource Include="add deler.resx">
       <DependentUpon>add deler.cs</DependentUpon>
     </EmbeddedResource>
