@@ -94,7 +94,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(221, 20);
             this.textBox5.TabIndex = 5;
-            this.textBox5.Text = "deler id";
+            this.textBox5.Text = "produkt nomer";
             this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // progressBar1

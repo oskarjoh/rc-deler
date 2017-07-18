@@ -60,5 +60,4 @@ namespace rc_deller
             }
         }
     }
-    }
 }
