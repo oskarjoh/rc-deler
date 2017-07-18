@@ -59,5 +59,9 @@ namespace rc_deller
 
             }
         }
+        public void progres_bar()
+        {
+
+        }
     }
 }
