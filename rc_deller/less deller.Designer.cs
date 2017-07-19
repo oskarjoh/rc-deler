@@ -36,7 +36,7 @@
             // progressBar1
             // 
             this.progressBar1.Location = new System.Drawing.Point(642, 413);
-            this.progressBar1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(2);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(122, 15);
             this.progressBar1.TabIndex = 0;
@@ -48,6 +48,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(748, 395);
             this.dataGridView1.TabIndex = 1;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // less_deller
             // 
@@ -56,7 +57,7 @@
             this.ClientSize = new System.Drawing.Size(773, 437);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.progressBar1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "less_deller";
             this.Text = "less_deller";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
