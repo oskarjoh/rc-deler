@@ -34,13 +34,15 @@ namespace rc_deller
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            this.Hide();
+            less_deller lesDel = new less_deller();
+            lesDel.ShowDialog();
         }
 
         private void add_parts_Click(object sender, EventArgs e)
         {
             this.Hide();
-            add_deler adeler = add_deler();
+            add_deler adeler = new add_deler();
             adeler.ShowDialog();
         }
 
