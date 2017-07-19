@@ -37,6 +37,7 @@ namespace rc_deller
             this.Hide();
             less_deller lesDel = new less_deller();
             lesDel.ShowDialog();
+            this.Close();
         }
 
         private void add_parts_Click(object sender, EventArgs e)
@@ -44,6 +45,7 @@ namespace rc_deller
             this.Hide();
             add_deler adeler = new add_deler();
             adeler.ShowDialog();
+            this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
