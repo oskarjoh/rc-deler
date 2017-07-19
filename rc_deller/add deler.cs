@@ -80,5 +80,10 @@ namespace rc_deller
             fo1.ShowDialog();
             this.Close();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
