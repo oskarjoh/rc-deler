@@ -39,8 +39,9 @@ namespace rc_deller
 
         private void add_parts_Click(object sender, EventArgs e)
         {
-            /*CodeView window = new CodeView(cbRe.Text, txtID.Text);
-            this.Content = window;*/
+            this.Hide();
+            add_deler adeler = add_deler();
+            adeler.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
