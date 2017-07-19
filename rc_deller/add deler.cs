@@ -52,10 +52,11 @@ namespace rc_deller
             {
                 // Create the connectionString
                 // Trusted_Connection is used to denote the connection uses Windows Authentication
-                conn.ConnectionString = "Server=[192.168.0.106];Database=[rc-deler];Trusted_Connection=true";
+                conn.ConnectionString = "Server=[192.168.0.106];User id=[raspberry];Password=[raspberry];Database=[rc-deler];Trusted_Connection=true";
                 conn.Open();
                 // Create the command
                 SqlCommand command = new SqlCommand("SELECT * FROM rom", conn);
+                conn.Close();
 
             }
         }
@@ -70,6 +71,14 @@ namespace rc_deller
             pBar1.Maximum = 100;
             // Set the initial value of the ProgressBar.
             pBar1.Value = 1;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 fo1 = new Form1();
+            fo1.ShowDialog();
+            this.Close();
         }
     }
 }

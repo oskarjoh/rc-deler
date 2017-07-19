@@ -37,6 +37,7 @@ namespace rc_deller
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Form1 fo1 = new Form1();
             fo1.ShowDialog();
             this.Close();
