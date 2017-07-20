@@ -16,9 +16,27 @@ namespace rc_deller
         public less_deller()
         {
             InitializeComponent();
+            mysql();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 fo1 = new Form1();
+            fo1.ShowDialog();
+            this.Close();
+        }
+
+        private void less_deller_Load(object sender, EventArgs e)
+        {
+
+        }
+        public void mysql()
         {
             // Create the connection to the resource!
             // This is the connection, that is established and
@@ -33,14 +51,6 @@ namespace rc_deller
                 SqlCommand command = new SqlCommand("SELECT * FROM rom", conn);
 
             }
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Form1 fo1 = new Form1();
-            fo1.ShowDialog();
-            this.Close();
         }
     }
 }
