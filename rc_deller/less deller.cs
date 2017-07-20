@@ -33,7 +33,7 @@ namespace rc_deller
 
         private void less_deller_Load(object sender, EventArgs e)
         {
-
+           
         }
         public void mysql()
         {
@@ -41,14 +41,14 @@ namespace rc_deller
             MySql.Data.MySqlClient.MySqlConnection conn;
             string myConnectionString;
 
-            myConnectionString = "server=192.168.0.106;uid=add_rc;" +
-                "pwd=KGSoa5kG-jL1;database=rc-deler;";
-
+            myConnectionString = "server=192.168.0.106;uid=less_rc;" +
+                "pwd=zJnf(-Vb2G1o;database=rc-deler;";
             try
             {
                 conn = new MySql.Data.MySqlClient.MySqlConnection();
                 conn.ConnectionString = myConnectionString;
                 conn.Open();
+                conn.GetSchema("rc-deler");
             }
             catch (MySql.Data.MySqlClient.MySqlException ex)
             {
