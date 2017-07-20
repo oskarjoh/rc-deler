@@ -38,8 +38,8 @@ namespace rc_deller
         }
         public void mysqlstart()
         {
-
-
+            var sql = new DBConnect();
+            sql.DBConnect();
         }
     }
     class DBConnect
