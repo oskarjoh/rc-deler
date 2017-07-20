@@ -45,11 +45,12 @@ namespace rc_deller
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //string txt1;
             MySql.Data.MySqlClient.MySqlConnection conn;
             string myConnectionString;
 
             myConnectionString = "server=192.168.0.106;uid=add_rc;" +
-                "pwd=ZCE4!#qySpZw;database=rc-deler;";
+                "pwd=qrk]Z3EkpjZq;database=rc-deler;";
             try
             {
                 conn = new MySql.Data.MySqlClient.MySqlConnection();
@@ -60,6 +61,9 @@ namespace rc_deller
             {
                 MessageBox.Show(ex.Message);
             }
+
+            //txt1 = textBox1.DataBindings;
+
         }
         public void progres_bar()
             {
