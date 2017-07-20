@@ -21,6 +21,7 @@ namespace rc_deller
         {
             this.Hide();
             Form1 fo1 = new Form1();
+            fo1.ShowDialog();
             this.Close();
         }
     }
