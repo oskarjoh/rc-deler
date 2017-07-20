@@ -16,7 +16,7 @@ namespace rc_deller
         public less_deller()
         {
             InitializeComponent();
-            mysql();
+            //mysql();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
