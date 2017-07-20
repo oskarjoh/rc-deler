@@ -26,5 +26,31 @@ namespace rc_deller
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            less_deller lesDel = new less_deller();
+            lesDel.ShowDialog();
+            this.Close();
+        }
+
+        private void add_parts_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            add_deler adeler = new add_deler();
+            adeler.ShowDialog();
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
