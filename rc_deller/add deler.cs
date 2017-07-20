@@ -45,19 +45,20 @@ namespace rc_deller
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Create the connection to the resource!
-            // This is the connection, that is established and
-            // will be available throughout this block.
-            using (SqlConnection conn = new SqlConnection())
-            {
-                // Create the connectionString
-                // Trusted_Connection is used to denote the connection uses Windows Authentication
-                conn.ConnectionString = "Server=[192.168.0.106];User id=[raspberry];Password=[raspberry];Database=[rc-deler];Trusted_Connection=true";
-                conn.Open();
-                // Create the command
-                SqlCommand command = new SqlCommand("SELECT * FROM rom", conn);
-                conn.Close();
+            MySql.Data.MySqlClient.MySqlConnection conn;
+            string myConnectionString;
 
+            myConnectionString = "server=192.168.0.106;uid=add_rc;" +
+                "pwd=ZCE4!#qySpZw;database=rc-deler;";
+            try
+            {
+                conn = new MySql.Data.MySqlClient.MySqlConnection();
+                conn.ConnectionString = myConnectionString;
+                conn.Open();
+            }
+            catch (MySql.Data.MySqlClient.MySqlException ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
         public void progres_bar()
