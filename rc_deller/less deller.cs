@@ -16,7 +16,7 @@ namespace rc_deller
         public less_deller()
         {
             InitializeComponent();
-            mysqlstart();
+            //mysqlstart();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -35,11 +35,6 @@ namespace rc_deller
         private void less_deller_Load(object sender, EventArgs e)
         {
 
-        }
-        public void mysqlstart()
-        {
-            var sql = new DBConnect();
-            sql.DBConnect();
         }
     }
     class DBConnect
@@ -76,6 +71,7 @@ namespace rc_deller
             try
             {
                 connection.Open();
+                MessageBox.Show("dete fungerer");
                 return true;
             }
             catch (MySqlException ex)
