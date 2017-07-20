@@ -30,7 +30,7 @@ namespace rc_deller
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            setings set = new setings();
+            abote set = new abote();
             set.ShowDialog();
             this.Close();
         }
