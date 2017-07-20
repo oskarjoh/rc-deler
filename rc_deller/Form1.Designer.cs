@@ -40,7 +40,7 @@
             // 
             this.progressBar1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.progressBar1.Location = new System.Drawing.Point(912, 585);
-            this.progressBar1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(4);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(176, 14);
             this.progressBar1.TabIndex = 0;
@@ -49,7 +49,7 @@
             // 
             this.add_parts.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.add_parts.Location = new System.Drawing.Point(468, 114);
-            this.add_parts.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.add_parts.Margin = new System.Windows.Forms.Padding(4);
             this.add_parts.Name = "add_parts";
             this.add_parts.Size = new System.Drawing.Size(149, 37);
             this.add_parts.TabIndex = 1;
@@ -61,11 +61,11 @@
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button2.Location = new System.Drawing.Point(468, 175);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(149, 41);
             this.button2.TabIndex = 2;
-            this.button2.Text = "weiv parts";
+            this.button2.Text = "view parts";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -73,7 +73,7 @@
             // 
             this.button3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button3.Location = new System.Drawing.Point(468, 245);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(149, 41);
             this.button3.TabIndex = 3;
@@ -85,7 +85,7 @@
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button1.Location = new System.Drawing.Point(468, 495);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(149, 38);
             this.button1.TabIndex = 4;
@@ -104,7 +104,7 @@
             this.Controls.Add(this.add_parts);
             this.Controls.Add(this.progressBar1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "rc deller";
             this.ResumeLayout(false);
