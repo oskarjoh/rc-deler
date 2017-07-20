@@ -16,7 +16,7 @@ namespace rc_deller
         public less_deller()
         {
             InitializeComponent();
-            //mysqlstart();
+            mysqlstart();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -35,6 +35,12 @@ namespace rc_deller
         private void less_deller_Load(object sender, EventArgs e)
         {
 
+        }
+
+        public void mysqlstart()
+        {
+            DBConnect dbcon = new DBConnect();
+            dbcon.DBConnect();
         }
     }
     class DBConnect
